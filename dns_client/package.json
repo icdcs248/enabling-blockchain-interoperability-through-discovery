@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@polkadot/api": "^11.2.1",
+    "@polkadot/ui-keyring": "^3.6.6",
+    "@substrate/connect": "^0.8.11",
+    "axios": "^1.7.2",
+    "uuidv4": "^6.2.13",
+    "ws": "^8.17.0"
+  },
+  "name": "dns_client",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --trace-warnings main",
+    "register": "node register.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
